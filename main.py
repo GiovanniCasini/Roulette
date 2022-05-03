@@ -25,7 +25,7 @@ for i in range(nRuns):
         print(balance)
         bets += 1
         balance -= bet
-        # playerNumber = random.randint(0, 36)
+        playerNumber = random.randint(0, 36)
         playerNumber = 0
         rouletteNumber = random.randint(0, 36)
         if playerNumber == rouletteNumber:
